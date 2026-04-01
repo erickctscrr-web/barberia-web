@@ -7,4 +7,4 @@ let cliente = "Juan";
 let servicio = "Fade";
 let precio = 150;
 
-console.log("El cliente" + cliente + "pidió un" + servicio + "y cuesta" + precio);
+console.log("El cliente " + cliente + "pidió un " + servicio + "y cuesta " + precio);
