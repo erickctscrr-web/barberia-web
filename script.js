@@ -3,11 +3,8 @@ function agendarCita(){
     alert("Gracias por agendar tu cita, Te contactaremos por WhatsApp.")
 }
 
-let nombre = "Erick"
-let edad = 18;
+let cliente = "Juan";
+let servicio = "Fade";
+let precio = 150;
 
-if(edad >=18){
-    console.log(nombre + "puede entrar a la barbería solo.");
-}else{
-    console.log(nomre + "necesita permiso.");
-}
+console.log("El cliente" + cliente + "pidió un" + servicio + "y cuesta" + precio);
